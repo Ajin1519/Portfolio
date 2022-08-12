@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about{
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about--data h1{
+    width: 8em;
+    height: 2em;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+}
+.about--bio{
+     max-width: 50em;
+}
+.about--download{
+    padding: 10px;
+    background-color: #FF6464;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about--img{
+ height: 15em;
+ width: auto;
+ padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.works{
+    padding: 15px;
+    background: #EDF7FA;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.works--card{
+    padding: 10px;
+    background-color: white;
+    width: 30em;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+}
+.works--card p{
+    font-size :16px;
+    font-weight: 400;
+}
+.works--date{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #21243D;
+    display: flex;
+    align-items: center;
+}
+.works--date h3{
+    padding:0px 5px;
+}
+.certificate--heading{
+    margin: 0;
+    padding-left: 10em;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+    background-color: #EDF7FA;
+}
+.project--heading{
+    margin-left: 10em;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+.projects{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project--card{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.project--details{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    max-width: 30em;
+    padding: 10px;
+}
+.project--card img{
+    width: 15em;
+}
+.project--date{
+    display: flex;
+}
+
+.project--date h5{
+    padding:0px 10px;
+}
+
+.project--year{
+    background-color: #191b31;
+    color:white;
+}
+.project--type{
+    margin-left: 10px;
+    color: #8695A4;
+}
+
+.project--details p{
+    font-weight: 400;
 }
